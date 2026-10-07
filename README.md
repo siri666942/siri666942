@@ -1,10 +1,6 @@
 <div align="center">
 
-![Siri — Build. Understand. Iterate.](assets/hero.svg)
-
-**BUPT Student · AI Agent Builder · Curious by default**
-
-把 AI 的能力，做成可运行、可观察、可改进的系统。
+![Siri — Build to understand.](assets/hero.svg)
 
 [Projects](#projects) · [Now](#now) · [Toolkit](#toolkit) · [Learning](#learning)
 

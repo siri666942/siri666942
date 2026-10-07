@@ -1,8 +1,6 @@
 <div align="center">
 
-![Siri — Build to understand.](assets/hero.svg)
-
-[Projects](#projects) · [Now](#now) · [Toolkit](#toolkit) · [Learning](#learning)
+![](assets/hero.svg)
 
 </div>
 

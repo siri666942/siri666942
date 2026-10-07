@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="130" viewBox="0 0 800 130" role="img"><title>Coding Agent — A composable agent harness</title>
+<defs><linearGradient id="b"><stop stop-color="#0d1422"/><stop offset="1" stop-color="#111b2c"/></linearGradient></defs>
+<rect x="1" y="1" width="798" height="128" rx="14" fill="url(#b)" stroke="#29374c"/>
+<rect x="1" y="26" width="3" height="78" rx="1" fill="#84ffd4"/>
+<text x="25" y="32" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#84ffd4" letter-spacing="2">PROJECT / 01</text>
+<text x="25" y="65" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="27" font-weight="700" fill="#e8eef8">Coding Agent</text>
+<text x="25" y="88" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="13" fill="#9eafc6">A composable agent harness</text>
+<text x="25" y="113" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="9" fill="#84ffd4" letter-spacing="1">CONTEXT / TOOLS / MEMORY / EVAL</text>
+<g stroke="#84ffd4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M720 43a25 25 0 1 1-15 34M697 77h10V67"/><path d="m708 53-7 7 7 7m23-14 7 7-7 7"/></g>
+<text x="771" y="113" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" fill="#91a3bd">EXPLORE ↗</text></svg>

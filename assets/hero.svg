@@ -1,49 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
-  <title id="title">Siri — Build to understand</title>
-  <desc id="desc">A minimal dark editorial banner for Siri, a student, builder, and experimenter focused on AI agents, retrieval, databases, and systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="presentation">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0d11"/>
-      <stop offset="0.58" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#11161d"/>
+      <stop offset="0" stop-color="#f6f8fa"/>
+      <stop offset="0.52" stop-color="#eef2f6"/>
+      <stop offset="1" stop-color="#e7edf3"/>
     </linearGradient>
-    <radialGradient id="glow" cx="77%" cy="48%" r="44%">
-      <stop offset="0" stop-color="#f2bd80" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#f2bd80" stop-opacity="0"/>
+
+    <radialGradient id="washA" cx="24%" cy="22%" r="52%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
-      <path d="M64 0H0V64" fill="none" stroke="#d0d7de" stroke-opacity="0.035" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b949e" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#aeb6bf" stop-opacity="0.28"/>
-      <stop offset="0.76" stop-color="#f2bd80" stop-opacity="0.86"/>
-      <stop offset="1" stop-color="#8b949e" stop-opacity="0.12"/>
+
+    <radialGradient id="washB" cx="78%" cy="72%" r="58%">
+      <stop offset="0" stop-color="#b8c7d9" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#b8c7d9" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f2328" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#1f2328" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#1f2328" stop-opacity="0.26"/>
+      <stop offset="0.82" stop-color="#1f2328" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#1f2328" stop-opacity="0"/>
     </linearGradient>
+
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+
+    <pattern id="micro" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.65" fill="#57606a" opacity="0.10"/>
+    </pattern>
   </defs>
 
-  <rect width="1440" height="480" rx="24" fill="url(#bg)"/>
-  <rect width="1440" height="480" rx="24" fill="url(#grid)"/>
-  <rect width="1440" height="480" rx="24" fill="url(#glow)"/>
+  <rect width="1440" height="420" rx="26" fill="url(#bg)"/>
+  <rect width="1440" height="420" rx="26" fill="url(#washA)"/>
+  <rect width="1440" height="420" rx="26" fill="url(#washB)"/>
+  <rect x="28" y="28" width="1384" height="364" rx="20" fill="url(#micro)" opacity="0.55"/>
 
-  <path d="M54 56H1386M54 424H1386" stroke="#f0f3f6" stroke-opacity="0.08"/>
-  <path d="M54 56V424M1386 56V424" stroke="#f0f3f6" stroke-opacity="0.06"/>
+  <g fill="none" stroke="url(#line)" stroke-linecap="round">
+    <path d="M-40 310C170 248 326 338 519 268C715 197 798 78 1027 108C1196 130 1326 228 1486 202" stroke-width="1.15"/>
+    <path d="M-20 334C184 284 345 359 534 296C734 228 824 112 1039 138C1204 158 1339 252 1472 236" stroke-width="0.8" opacity="0.7"/>
+    <path d="M-4 286C191 216 332 312 506 238C679 165 789 48 1010 80C1199 107 1313 198 1460 170" stroke-width="0.72" opacity="0.46"/>
+  </g>
 
-  <path d="M510 386C690 355 811 292 927 220C1041 150 1168 115 1386 142" fill="none" stroke="#d0d7de" stroke-opacity="0.20" stroke-width="1.2"/>
-  <path d="M540 438C804 416 982 345 1140 311C1248 288 1332 292 1440 320" fill="none" stroke="url(#horizon)" stroke-width="1.6"/>
-  <path d="M739 480C937 408 1094 365 1242 360C1325 357 1388 367 1440 383V480Z" fill="#f0f3f6" fill-opacity="0.018"/>
-  <circle cx="1054" cy="153" r="5.5" fill="#f2bd80"/>
-  <circle cx="1054" cy="153" r="13" fill="none" stroke="#f2bd80" stroke-opacity="0.18"/>
-  <path d="M1054 56V424" stroke="#f2bd80" stroke-opacity="0.08" stroke-dasharray="3 9"/>
+  <g fill="none" stroke="#57606a" stroke-opacity="0.12">
+    <path d="M338 52V368"/>
+    <path d="M721 52V368"/>
+    <path d="M1104 52V368"/>
+    <path d="M76 140H1364"/>
+    <path d="M76 280H1364"/>
+  </g>
 
-  <text x="92" y="198" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="112" font-weight="650" letter-spacing="18">SIRI</text>
-  <rect x="95" y="224" width="54" height="3" rx="1.5" fill="#f2bd80"/>
-  <text x="92" y="273" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="24" letter-spacing="5">BUILD TO UNDERSTAND.</text>
-  <text x="92" y="320" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="2.4">AI AGENTS  ·  RETRIEVAL  ·  DATABASES  ·  SYSTEMS</text>
+  <g filter="url(#soft)">
+    <ellipse cx="1036" cy="118" rx="122" ry="66" fill="#ffffff" opacity="0.34"/>
+    <ellipse cx="449" cy="301" rx="150" ry="56" fill="#c9d6e3" opacity="0.18"/>
+  </g>
 
-  <text x="1120" y="92" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.2">STUDENT / BUILDER</text>
-  <text x="1120" y="116" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.2">EXPERIMENTER</text>
+  <g>
+    <circle cx="1035" cy="117" r="8" fill="#1f2328" opacity="0.92"/>
+    <circle cx="1035" cy="117" r="22" fill="none" stroke="#1f2328" stroke-opacity="0.12"/>
+    <circle cx="1035" cy="117" r="42" fill="none" stroke="#1f2328" stroke-opacity="0.06"/>
+  </g>
 
-  <text x="92" y="400" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">SIRI666942 / GITHUB</text>
-  <text x="1348" y="400" text-anchor="end" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">MAKE · INSPECT · LEARN</text>
+  <g fill="#1f2328" opacity="0.38">
+    <circle cx="519" cy="268" r="2.3"/>
+    <circle cx="721" cy="196" r="2.3"/>
+    <circle cx="861" cy="126" r="2.3"/>
+    <circle cx="1200" cy="158" r="2.3"/>
+  </g>
+
+  <path d="M76 368H1364" stroke="#1f2328" stroke-opacity="0.10"/>
 </svg>

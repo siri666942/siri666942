@@ -1,53 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img">
-<title>Siri — BUPT student and AI Agent builder</title>
-<desc>A midnight terminal with mint and violet circuitry. Build. Understand. Iterate.</desc>
-<defs>
-  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090e1c"/><stop offset="1" stop-color="#10162c"/></linearGradient>
-  <linearGradient id="mint"><stop stop-color="#84ffd4"/><stop offset="1" stop-color="#72dcff"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#56d9c8" stop-opacity=".13"/><stop offset="1" stop-color="#56d9c8" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#95b1df" stroke-opacity=".07"/></pattern>
-</defs>
-<rect x="1" y="1" width="1198" height="438" rx="22" fill="url(#bg)" stroke="#28354d"/>
-<rect x="2" y="2" width="1196" height="436" rx="21" fill="url(#grid)"/>
-<ellipse cx="938" cy="196" rx="300" ry="235" fill="url(#glow)"/>
-<path d="M1 52H1199" stroke="#26334a"/>
-<circle cx="28" cy="27" r="5" fill="#ff6b80"/><circle cx="46" cy="27" r="5" fill="#f6c86a"/><circle cx="64" cy="27" r="5" fill="#77edbc"/>
-<text x="90" y="32" fill="#8c9eb8" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13">siri@github: ~/workbench</text>
-<text x="1096" y="32" fill="#84ffd4" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11">[ online ]</text>
-<text x="50" y="97" fill="#83ffd3" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="3">HELLO, WORLD. I'M</text>
-<text x="43" y="211" fill="url(#mint)" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="800" font-size="116" letter-spacing="-5">SIRI<tspan fill="#a797ff">.</tspan></text>
-<text x="50" y="258" fill="#e1e9f6" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="500" letter-spacing="1">BUILD. UNDERSTAND. ITERATE.</text>
-<text x="50" y="293" fill="#96a7c0" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14">Coding Agents / Retrieval Systems / AI Applications</text>
-<rect x="50" y="325" width="601" height="71" rx="10" fill="#080d18" stroke="#26364e"/>
-<text x="69" y="352" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13"><tspan fill="#84ffd4">$ </tspan><tspan fill="#d7e1f1">python -m curiosity</tspan></text>
-<text x="69" y="376" fill="#8497b3" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="12">&gt; turning ideas into systems, one iteration at a time</text>
-<rect x="506" y="364" width="7" height="14" fill="#83ffd3"><animate attributeName="opacity" values="1;1;0;0" dur="2s" repeatCount="indefinite"/></rect>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">Siri — Build to understand</title>
+  <desc id="desc">A minimal dark editorial banner for Siri, a student, builder, and experimenter focused on AI agents, retrieval, databases, and systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0d11"/>
+      <stop offset="0.58" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#11161d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="77%" cy="48%" r="44%">
+      <stop offset="0" stop-color="#f2bd80" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#f2bd80" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#d0d7de" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b949e" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#aeb6bf" stop-opacity="0.28"/>
+      <stop offset="0.76" stop-color="#f2bd80" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#8b949e" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
 
-<g fill="none" stroke="#456777" stroke-width="1.5">
-  <path d="M733 139H814L847 172H899"/><path d="M772 276H820L847 249H899"/>
-  <path d="M987 172H1030L1067 135H1139"/><path d="M987 249H1055L1090 284H1151"/>
-  <path d="M943 160V110L973 80"/><path d="M943 262V314L980 351H1128"/>
-  <path d="M718 213H899"/><path d="M987 213H1157"/>
-</g>
-<g fill="none" stroke="#83ffd3" stroke-width="1.5" opacity=".5">
-  <path d="M788 108H823L855 140H875"/><path d="M1020 307H1054L1094 347"/>
-</g>
-<rect x="880" y="149" width="126" height="126" rx="22" fill="#121e2f" stroke="#83ffd3" stroke-opacity=".5"/>
-<rect x="894" y="163" width="98" height="98" rx="15" fill="#0c1423" stroke="#344960"/>
-<text x="943" y="214" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#83ffd3" font-size="34" font-weight="700">AI</text>
-<text x="943" y="239" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#93a8c6" font-size="10" letter-spacing="2">AGENT LOOP</text>
-<g fill="#0c1423" stroke="#83ffd3" stroke-width="1.5">
-  <circle cx="733" cy="139" r="4"/><circle cx="772" cy="276" r="4"/>
-  <circle cx="1139" cy="135" r="4"/><circle cx="1151" cy="284" r="4"/>
-  <circle cx="973" cy="80" r="4"/><circle cx="1128" cy="351" r="4"/>
-  <circle cx="718" cy="213" r="4"/><circle cx="1157" cy="213" r="4"/>
-</g>
-<circle r="3" fill="#a797ff"><animateMotion dur="5s" repeatCount="indefinite" path="M733 139H814L847 172H880"/></circle>
-<circle r="3" fill="#83ffd3"><animateMotion dur="5s" begin="1s" repeatCount="indefinite" path="M1006 213H1157"/></circle>
-<text x="762" y="126" fill="#7790ac" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10">CONTEXT</text>
-<text x="1068" y="120" fill="#7790ac" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10">TOOLS</text>
-<text x="747" y="301" fill="#7790ac" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10">MEMORY</text>
-<text x="1049" y="377" fill="#7790ac" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10">VERIFY / ITERATE</text>
-<text x="50" y="424" fill="#62758f" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">BUPT / STUDENT / BUILDER</text>
-<text x="1150" y="424" text-anchor="end" fill="#62758f" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">CURIOSITY: UNBOUNDED</text>
+  <rect width="1440" height="480" rx="24" fill="url(#bg)"/>
+  <rect width="1440" height="480" rx="24" fill="url(#grid)"/>
+  <rect width="1440" height="480" rx="24" fill="url(#glow)"/>
+
+  <path d="M54 56H1386M54 424H1386" stroke="#f0f3f6" stroke-opacity="0.08"/>
+  <path d="M54 56V424M1386 56V424" stroke="#f0f3f6" stroke-opacity="0.06"/>
+
+  <path d="M510 386C690 355 811 292 927 220C1041 150 1168 115 1386 142" fill="none" stroke="#d0d7de" stroke-opacity="0.20" stroke-width="1.2"/>
+  <path d="M540 438C804 416 982 345 1140 311C1248 288 1332 292 1440 320" fill="none" stroke="url(#horizon)" stroke-width="1.6"/>
+  <path d="M739 480C937 408 1094 365 1242 360C1325 357 1388 367 1440 383V480Z" fill="#f0f3f6" fill-opacity="0.018"/>
+  <circle cx="1054" cy="153" r="5.5" fill="#f2bd80"/>
+  <circle cx="1054" cy="153" r="13" fill="none" stroke="#f2bd80" stroke-opacity="0.18"/>
+  <path d="M1054 56V424" stroke="#f2bd80" stroke-opacity="0.08" stroke-dasharray="3 9"/>
+
+  <text x="92" y="198" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="112" font-weight="650" letter-spacing="18">SIRI</text>
+  <rect x="95" y="224" width="54" height="3" rx="1.5" fill="#f2bd80"/>
+  <text x="92" y="273" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="24" letter-spacing="5">BUILD TO UNDERSTAND.</text>
+  <text x="92" y="320" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="2.4">AI AGENTS  ·  RETRIEVAL  ·  DATABASES  ·  SYSTEMS</text>
+
+  <text x="1120" y="92" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.2">STUDENT / BUILDER</text>
+  <text x="1120" y="116" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="2.2">EXPERIMENTER</text>
+
+  <text x="92" y="400" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">SIRI666942 / GITHUB</text>
+  <text x="1348" y="400" text-anchor="end" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="2">MAKE · INSPECT · LEARN</text>
 </svg>
